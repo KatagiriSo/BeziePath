@@ -13,6 +13,7 @@
 		323CD8001B9ECE7700E123AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323CD7FF1B9ECE7700E123AD /* Images.xcassets */; };
 		323CD8031B9ECE7700E123AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 323CD8011B9ECE7700E123AD /* LaunchScreen.xib */; };
 		323CD80F1B9ECE7700E123AD /* CustomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323CD80E1B9ECE7700E123AD /* CustomUITests.swift */; };
+		323CD8191B9ECE9F00E123AD /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323CD8181B9ECE9F00E123AD /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		323CD8081B9ECE7700E123AD /* CustomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		323CD80D1B9ECE7700E123AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		323CD80E1B9ECE7700E123AD /* CustomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUITests.swift; sourceTree = "<group>"; };
+		323CD8181B9ECE9F00E123AD /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				323CD7F81B9ECE7700E123AD /* AppDelegate.swift */,
 				323CD7FA1B9ECE7700E123AD /* ViewController.swift */,
 				323CD7FC1B9ECE7700E123AD /* Main.storyboard */,
+				323CD8181B9ECE9F00E123AD /* CustomView.swift */,
 				323CD7FF1B9ECE7700E123AD /* Images.xcassets */,
 				323CD8011B9ECE7700E123AD /* LaunchScreen.xib */,
 				323CD7F61B9ECE7700E123AD /* Supporting Files */,
@@ -168,7 +171,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 323CD7EE1B9ECE7600E123AD /* Build configuration list for PBXProject "CustomUI" */;
+			buildConfigurationList = 323CD7EE1B9ECE7600E123AD /* Build configuration list for PBXProject "BaziePathUI" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				323CD8191B9ECE9F00E123AD /* CustomView.swift in Sources */,
 				323CD7FB1B9ECE7700E123AD /* ViewController.swift in Sources */,
 				323CD7F91B9ECE7700E123AD /* AppDelegate.swift in Sources */,
 			);
@@ -395,7 +399,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		323CD7EE1B9ECE7600E123AD /* Build configuration list for PBXProject "CustomUI" */ = {
+		323CD7EE1B9ECE7600E123AD /* Build configuration list for PBXProject "BaziePathUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				323CD8101B9ECE7700E123AD /* Debug */,
