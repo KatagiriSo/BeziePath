@@ -53,7 +53,7 @@ extension UIBezierPath
         UIColor.whiteColor().setStroke()
         
         self.moveToPoint(points[0])
-        self.addLineToPoint(midPoint(points[0], points[1]))
+        self.addLineToPoint(midPoint(points[0], point2: points[1]))
         
         // 曲線描画
         for (var i = 2 ; i < points.count ; i++) {
@@ -61,13 +61,13 @@ extension UIBezierPath
             let prePoint = points[i - 1]
             
             let currentPoint   = points[i]
-            let prepreMid           = midPoint(prePoint, preprePoint)
-            let preMid           = midPoint(currentPoint, prePoint)
+            let prepreMid           = midPoint(prePoint, point2: preprePoint)
+            let preMid           = midPoint(currentPoint, point2: prePoint)
             self.moveToPoint(prepreMid)
             self.addQuadCurveToPoint(preMid, controlPoint: prePoint)
         }
         
-        self.moveToPoint(midPoint(points[points.count-2], points.last!))
+        self.moveToPoint(midPoint(points[points.count-2], point2: points.last!))
         self.addLineToPoint(points.last!)
         
     }
